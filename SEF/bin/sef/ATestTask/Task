@@ -2,30 +2,31 @@
 Tasks
 
 1) in file Person
-  1.1 Based on code implement Person attributes
+  1.1 Based on code implement Person attributes - done
   1.2 Add method for introduce of person ->
-   "My name is <name> and i am <age> years old"
+   "My name is <name> and i am <age> years old" - done
 
 2) In file Employee
-  2.1 Add different constructors
-  2.2 Add getters and setters
+  2.1 Add different constructors - done
+  2.2 Add getters and setters - done
   2.3 Add method for introduce of person ->
   "My name is <name> and i am <age> years old
-   I am work as <jobTitle> in <company>"
+   I am work as <jobTitle> in <company>" -done
 
 3) in file Students
   3.1 Create file students from scratch
   3.2 Add method for introduce of person ->
-        "I am study in university <schoolName>"
+        "I am study in university <schoolName>" done
 
 4) in file FirstActivity
-  4.1 create few employees
-  4.2 try to print them from top salary to less
+  4.1 create few employees - done
+  4.2 try to print them from top salary to less - done
 
 5) Create unit test for ALL classes (example in EmployeeTest)
     Try to achieve 100% of coverage
 
-6) Create a calculator in SecondActivity
+6) Create a calculator in SecondActivity done done doooone
+
 7) Add tests for calculator
 
 8) In class Person add check when set firstName and secondName, check no numbers there. ->
