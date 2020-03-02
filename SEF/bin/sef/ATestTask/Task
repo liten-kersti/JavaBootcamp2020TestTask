@@ -14,7 +14,7 @@ Tasks
    I am work as <jobTitle> in <company>" -done
 
 3) in file Students
-  3.1 Create file students from scratch
+  3.1 Create file students from scratch done
   3.2 Add method for introduce of person ->
         "I am study in university <schoolName>" done
 
@@ -27,14 +27,14 @@ Tasks
 
 6) Create a calculator in SecondActivity done done doooone
 
-7) Add tests for calculator
+7) Add tests for calculator done
 
 8) In class Person add check when set firstName and secondName, check no numbers there. ->
-setName("Ivan3") should throw the customized exception
+setName("Ivan3") should throw the customized exception done done doooone
 
 9) In third activity
- 9.1 create try-catch blocks
- 9.2 handel the exceptions
+ 9.1 create try-catch blocks doooone
+ 9.2 handel the exceptions done done done
 
 
 
@@ -46,7 +46,7 @@ for example create abstraction Humanity for Employee and Students
 2) Try to save employee list in to TXT file on HDD
 
 3) Develop println of n Fibonacci_number https://en.wikipedia.org/wiki/Fibonacci_number
-    For example if user put 7 -> 0 1 1 2 3 5 8. if user put 10 -> 0 1 1 2 3 5 8 13 21 34
+    For example if user put 7 -> 0 1 1 2 3 5 8. if user put 10 -> 0 1 1 2 3 5 8 13 21 34 done
 
 4) Sort employees by first and second name
 

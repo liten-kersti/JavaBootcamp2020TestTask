@@ -1,6 +1,8 @@
 package sef.ATestTask.FirstActivity;
 
 
+import sef.ATestTask.ThirdActivity.CustomException;
+
 public class Person {
 
     //TODO 1 Implement Person Attributes
@@ -27,8 +29,31 @@ public class Person {
         return firstName;
     }
 
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
+    //setter for String firstName
+    public void setFirstName(String firstName) throws NewException {
+
+        if(firstName.matches(".*\\d.*")){
+            throw new NewException();
+        } else{
+            // does not contain a number
+            this.firstName = firstName;
+        }
+    }
+    // getter for secondName
+    public String getSecondName() {
+        return secondName;
+    }
+
+    //setter for secondName
+
+    public void setSecondName(String secondName) throws NewException {
+
+        if(secondName.matches(".*\\d.*")){
+            throw new NewException();
+        } else{
+            // does not contain a number
+            this.secondName = secondName;
+        }
     }
 
     // getter for int age
@@ -41,20 +66,18 @@ public class Person {
         this.age = age;
     }
 
-    public String getSecondName() {
-        return secondName;
-    }
-
-    public void setSecondName(String secondName) {
-        this.secondName = secondName;
-    }
-
     //TODO 2 add all person info into announce() method
     public void announce() {
 
-        System.out.println("My name is " + getFirstName() + " " + getSecondName() + " and I am " + getAge() + "years old");
+        System.out.println("My name is " + getFirstName() + " " + getSecondName() + " and I am " + getAge() + " years old");
 
     }
 
+    /*public static void main(String[] arg) throws NewException {
+        Person ivan = new Person();
+        ivan.setFirstName("Ivan");
+        ivan.setSecondName("Chernyshev1");
+       ivan.announce();
+    }*/
 }
 

@@ -1,4 +1,8 @@
 package sef.ATestTask.FirstActivity;
 
-public class NewException {
+public class NewException  extends Exception {
+    public String getMessage()
+    {
+        return "Invalid name (contains numbers)";
+    }
 }

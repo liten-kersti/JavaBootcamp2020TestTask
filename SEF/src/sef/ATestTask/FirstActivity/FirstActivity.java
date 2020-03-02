@@ -5,7 +5,7 @@ import java.util.Collections;
 import java.util.List;
 
 public class FirstActivity {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws NewException {
 
         //TODO 1 Create collection of employee (more than 5) list or map
         //		System.out.println() result
@@ -36,19 +36,21 @@ public class FirstActivity {
         }
 
         //TODO 3 create instance of a Student as a Person ->
-        Person student = null;
+        // than ask him introduce()
+        // than make them Student
+        // than ask him introduce()
+        Person student = new Person("Sam", "Dean", 24);
         student.announce();
         student = new Student("Sam", "Dean", 24, "RTU");
         student.announce();
 
-        // than ask him introduce()
-        // than make them Student
-        // than ask him introduce()
+
 
         //TODO 4 Create method for full change of employee information
         // for example some employee change his work
 
-
+        Employee employee = new Employee();
+        employee.ChangeInfo("John", "Doe", 34, 1234, "SEO", "Company", 2100);
 
     }
 }

@@ -1,6 +1,6 @@
 package sef.ATestTask.FirstActivity;
 
-public class Employee extends Person implements Comparable<Employee> {
+public class Employee extends Person implements Comparable<Employee>  {
 
     private int empId;
     private String jobTitle;
@@ -78,5 +78,16 @@ public class Employee extends Person implements Comparable<Employee> {
     public int compareTo(Employee emp) {
         return (this.getSalary() < emp.getSalary()? -1:
              (this.getSalary()==emp.getSalary() ? 0:1));
+    }
+
+    //FirstActivity.java TODO 4
+    public void ChangeInfo(String firstName, String secondName, int age, int empId, String jobTitle, String companyName, double salary) throws NewException {
+        this.setFirstName(firstName);
+        this.setSecondName(secondName);
+        this.setAge(age);
+        this.setEmpId(empId);
+        this.setJobTitle(jobTitle);
+        this.setCompanyName(companyName);
+        this.setSalary(salary);
     }
 }
